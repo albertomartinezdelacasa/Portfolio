@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    --dot-bg: white;
+    --dot-color: black;
+    --dot-size: 1px;
+    --dot-space: 22px;
+    background: linear-gradient(
+                90deg,
+                var(--dot-bg) calc(var(--dot-space) - var(--dot-size)),
+                transparent 1%
+            )
+            center / var(--dot-space) var(--dot-space),
+        linear-gradient(
+                var(--dot-bg) calc(var(--dot-space) - var(--dot-size)),
+                transparent 1%
+            )
+            center / var(--dot-space) var(--dot-space),
+        var(--dot-color);
+}
+
+.mainHome {
+    display: flex;
+    flex-direction: column; /* La página principal se muestra en una columna */
+    width: 70%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    gap: 10px;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+.mainHome h1 {
+    text-align: center;
+}
+
+.mainHome h2 {
+    text-decoration: underline;
+    font-size: 24px;
+    font-stretch: ultra-expanded;
+    margin-bottom: 10px;
+    padding: 1rem;
+}
+
+img {
+    border-radius: 10px;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.planteamiento {
+    word-wrap: break-word;
+    border-radius: 10px;
+    background-color: #e9d8a6;
+    width: 50%;
+
+    margin: 0 auto;
+    padding: 0 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    height: 200px;
+}
+
+.nudo button {
+    float: right;
+    margin: 10px;
+    padding: 12px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nudo {
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgba(127, 255, 212, 0.95);
+    border-radius: 10px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 0 20px;
+    gap: 20px;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.nudo > * {
+    margin-bottom: 20px;
+}
+
+.inno {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: 20px;
+}
+
+.innovaspace-texto {
+    margin-left: 1rem;
+}
+
+.pokedex {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.nudo button {
+    padding: 8px 19px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 0;
+}
+
+.poketexto {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.desenlace {
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    background-color: aqua;
+    width: 50%;
+    margin: 0 auto;
+    padding: 0 20px;
+    height:400px;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+.desenlace .otras > div {
+    border-radius: 10px;
+    margin: 0 auto;
+    gap: 10px;
+    display: flex;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.alberto {
+    height: 200px;
+}
+
+.podcast,
+.comedy {
+    display: flex; /* Asegúrate de que el contenedor sea un flexbox */
+    flex-direction: column; /* Si quieres que la imagen y el texto estén uno encima del otro */
+    align-items: center; /* Centra los elementos horizontalmente */
+    justify-content: center; /* Centra los elementos verticalmente */
+    flex: 1;
+    margin: 0 10px; /* Espacio entre las columnas */
+}
