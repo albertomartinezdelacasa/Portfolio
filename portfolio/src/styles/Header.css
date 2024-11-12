@@ -1,0 +1,38 @@
+.header {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.header ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+
+.linkedin{
+    margin-top:10px ;
+    height: 50px;;
+}
+.github{
+    margin-top: 9px;
+    height: 30px;;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+}
