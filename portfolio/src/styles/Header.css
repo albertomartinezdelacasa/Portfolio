@@ -36,3 +36,46 @@
     text-decoration: none;
     color: black;
 }
+
+@media screen and (max-width: 375px) {
+    .header {
+        padding: 0.5rem;
+    }
+
+    .header ul {
+        gap: 10px;
+    }
+
+    .linkedin {
+        height: 40px;
+        margin-top: 5px;
+    }
+
+    .github {
+        height: 25px;
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        padding: 0.75rem;
+    }
+
+    .header ul {
+        gap: 15px;
+    }
+
+    .linkedin {
+        height: 45px;
+        margin-top: 7px;
+    }
+
+    .github {
+        height: 27px;
+        margin-top: 7px;
+    }
+}
+
+
+

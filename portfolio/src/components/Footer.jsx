@@ -4,7 +4,7 @@ const Footer = () => {
             <hr />
             <div className="contacto">
 
-            <h2>¡Muchas gracias!</h2>
+            <h2 id="contacto">¡Muchas gracias!</h2>
             <p><strong>Email: <a href="mailto:albertomgraupera@gmail.com">albertomgraupera@gmail.com</a></strong></p>
             </div>
         </footer>
