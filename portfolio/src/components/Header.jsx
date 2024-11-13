@@ -1,25 +1,40 @@
 const Header = () => {
+    const subirarriba = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+        });
+    };
     return (
-
-
         <header className="header">
-
             <nav>
                 <ul>
-                <img  className="linkedin" src="/public/linkedin.png"/>
+                    <a href="https://www.linkedin.com/in/alberto-martinez-de-la-casa-graupera/" target="_blank" rel="noopener noreferrer">
+                        <img
+                            className="linkedin"
+                            src="/public/linkedin.png"
+                        />
+                    </a>
                     <li>
-                        <a href="/">Inicio</a>
+                        <a href="#inicio" onClick={subirarriba}>
+                            Inicio
+                        </a>
                     </li>
                     <li>
-                        <a href="/proyectos">Proyectos</a>
+                        <a href="#proyectos">Proyectos</a>
                     </li>
                     <li>
-                        <a href="/contacto">sobremi</a>
+                        <a href="#desenlace">Sobre mí</a>
                     </li>
                     <li>
-                        <a href="/contacto">Contacto</a>
+                        <a href="#contacto">Contacto</a>
                     </li>
-                <img  className="github" src="/public/github.png"/>
+                    <a href="https://github.com/albertomartinezdelacasa" target="_blank" rel="noopener noreferrer">
+                        <img
+                            className="github"
+                            src="/public/github.png"
+                        />
+                    </a>
                 </ul>
             </nav>
         </header>

@@ -1,28 +1,43 @@
 .Footer {
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
     width: 100%;
-    padding: 1rem;
+    padding: 2rem 0;
     text-align: center;
-    margin-top: 100p;
+    margin-top: 3rem;
     text-decoration: none;
-    height:20vh;
+    min-height: 20vh;
+    background: linear-gradient(145deg, rgba(222, 184, 135, 0.4), rgba(36, 155, 157, 0.3));
+    box-shadow: 0 -8px 20px rgba(0, 0, 0, 0.15);
+    font-family: "Montserrat", sans-serif;
 }
 
-hr {
-    width: 100%;
-    height: 3px;
-    background-color: rgba(0, 0, 0, 0.087);
-}
 
 .contacto {
-    margin-top: 30px;
-    
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
 }
+
 .Footer a {
-    color: inherit;
-    text-decoration: none;}
+    color: #2d5f60;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.3s ease;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.Footer a:hover {
+    color: #41898a;
+    background: rgba(36, 155, 157, 0.1);
+    transform: translateY(-2px);
+    text-decoration: none;
+}
