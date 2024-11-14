@@ -30,10 +30,9 @@ const Home = () => {
                     <div className="innovaspace-texto">
                         <h3>INNOVASPACE</h3>
                         <p>
-                            Innovaspace es el proyecto de final de
-                            nuestro bootcamp full stack. Donde
-                            desarrollamos la base de datos y la
-                            aplicamos al front.
+                            Innovaspace es el proyecto de final de nuestro
+                            bootcamp full stack. Donde desarrollamos la base de
+                            datos y la aplicamos al front.
                         </p>
                         <h4>Tecnologías usadas</h4>
                         <p>NODE.JS, REACT, JS, CSS, SQL</p>
@@ -41,7 +40,7 @@ const Home = () => {
                         <button
                             onClick={() =>
                                 window.open(
-                                    "https://github.com/tu-repo-innovaspace"
+                                    "https://github.com/albertomartinezdelacasa/Coworking"
                                 )
                             }
                         >
@@ -60,7 +59,7 @@ const Home = () => {
                             los datos de POKEAPI.
                         </p>
                         <h4>Tecnologías usadas</h4>
-                        <p>NODE.JS, REACT, JS, CSS, SQL</p>
+                        <p>HTML,CSS,JS</p>
                         <button
                             onClick={() =>
                                 window.open(
